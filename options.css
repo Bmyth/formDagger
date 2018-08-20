@@ -1,0 +1,74 @@
+.container{
+	width : 800px;
+	margin : 10px auto;
+	font-size: 16px;
+}
+.domain{
+	overflow: hidden;
+	border-bottom: 1px solid #666;
+}
+.domain p{
+	float: left;
+	margin: 10px;
+	cursor: pointer;
+	font-size: 18px;
+}
+.domain p.focused{
+	text-decoration: underline;
+}
+.domain .scenario{
+	float: right;
+	font-size: 14px;
+}
+.destination{
+	overflow: hidden;
+	border-bottom: 1px solid #666;
+}
+.destination p{
+	float: left;
+	margin: 10px;
+}
+.destination .title{
+	width: 200px;
+}
+.destination .value{
+	width: 400px;
+}
+.destination .value input{
+	width: 320px;
+}
+.module-item{
+	border-bottom: 1px solid #888;
+}
+.module-item .moduleId{
+	margin: 10px;
+}
+.module-field{
+	overflow: hidden;
+}
+.module-field .key, .module-field .type, .module-field .value{
+	float: left;
+	margin: 5px 10px;
+}
+.module-field .key{
+	width: 200px;
+}
+.module-field .type{
+	width: 140px;
+}
+.module-field .value{
+	width: 400px;
+}
+.module-field .value input{
+	width: 320px;
+}
+.opt{
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.opt p{
+	float: left;
+	margin: 10px 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
